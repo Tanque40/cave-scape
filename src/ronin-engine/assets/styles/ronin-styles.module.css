@@ -1,0 +1,20 @@
+.roninCanvas {
+  width: 800px;
+  height: 800px;
+  background-color: red;
+  padding: 0px;
+}
+
+.errorBox {
+  color: red;
+  font-weight: 500;
+  font-size: 1rem;
+  border: 1px solid white;
+  padding: 25px;
+  margin-top: 20px;
+}
+
+.errorBoxTitle {
+  color: #eee;
+  border-bottom: 1px solid gray;
+}
