@@ -25,6 +25,58 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el 
   - [ ] Setup
   - [ ] OnUpdate
   - [ ] OnEvent
+    - [ ] On focus
+    - [ ] key definitions
+    - [ ] Event queue
+    - [ ] Event handler
   - [ ] Destroy
 - [ ] Generar un manejador de cubos
 - [ ] Definir un batch renderer
+
+### Nice to have
+
+- [ ] Librería de matematicas
+  - [ ] Vec1
+    - [ ] sum
+    - [ ] res
+    - [ ] scalar
+  - [ ] Vec2
+    - [ ] sum
+    - [ ] res
+    - [ ] scalar
+    - [ ] dot
+  - [ ] Vec3
+    - [ ] sum
+    - [ ] res
+    - [ ] scalar
+    - [ ] dot
+    - [ ] cross
+  - [ ] Vec4
+    - [ ] sum
+    - [ ] res
+    - [ ] scalar
+    - [ ] dot
+  - [ ] Mat2
+    - [ ] sum
+    - [ ] res
+    - [ ] scalar
+      - [ ] scalar
+      - [ ] vector
+    - [ ] transposition
+    - [ ] multiplication
+  - [ ] Mat3
+    - [ ] sum
+    - [ ] res
+    - [ ] scalar
+      - [ ] scalar
+      - [ ] vector
+    - [ ] transposition
+    - [ ] multiplication
+  - [ ] Mat4
+    - [ ] sum
+    - [ ] res
+    - [ ] scalar
+      - [ ] scalar
+      - [ ] vector
+    - [ ] transposition
+    - [ ] multiplication

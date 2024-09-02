@@ -1,6 +1,6 @@
-import { IMat4 } from "./interface/i-mat4.interface";
+import { IMat4 } from "./interface/mat4.interface";
 
-export namespace wglm{
+namespace wglm{
   export class Mat4 implements IMat4{
     matrix: Array<Array<Number>>;
     /*

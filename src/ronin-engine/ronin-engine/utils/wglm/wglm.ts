@@ -1,4 +1,5 @@
 export namespace wglm{
+  require("./vec1")
   interface IVec2{
     x: number;
     y: number;
@@ -39,3 +40,4 @@ export namespace wglm{
     }
   }
 }
+export{}

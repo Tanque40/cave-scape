@@ -5,6 +5,7 @@ import roninStyles from "@/ronin-engine/assets/styles/ronin-styles.module.css"
 import fragmentShaderSource from '@/ronin-engine/assets/shaders/fragment-shader.shader.frag'
 import vertexShaderSource from '@/ronin-engine/assets/shaders/vertex-shader.shader.vert'
 import { showError } from "./utils/errors"
+import { wglm } from "./utils/wglm/wglm"
 
 export default function RoninEntryPoint() {
   const initWebGL = (): void => {
@@ -22,9 +23,11 @@ export default function RoninEntryPoint() {
       throw new Error("Your browser does not support webGl")
     }
 
+    const vector1: wglm.Vec1 = new wglm.Vec1(5);
+    console.log(vector1);
+
+
     const triangleVertices: number[] = [
-
-
       // Bottom left
       -0.1, -0.1, 0.5, 0.80, 0.40, 0.60, 1.0,
       // Top left    //Colors
